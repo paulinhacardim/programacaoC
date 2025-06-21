@@ -103,22 +103,58 @@ int main() {
         int attr = (i == 1) ? atributo1 : atributo2;
         switch (attr) {
             case 1:
-                (i == 1) ? (valor1_carta1 = populacao1, valor1_carta2 = populacao2) : (valor2_carta1 = populacao1, valor2_carta2 = populacao2);
+                if (i == 1) {
+                    valor1_carta1 = populacao1;
+                    valor1_carta2 = populacao2;
+                } else {
+                    valor2_carta1 = populacao1;
+                    valor2_carta2 = populacao2;
+                }
                 break;
             case 2:
-                (i == 1) ? (valor1_carta1 = area1, valor1_carta2 = area2) : (valor2_carta1 = area1, valor2_carta2 = area2);
+                if (i == 1) {
+                    valor1_carta1 = area1;
+                    valor1_carta2 = area2;
+                } else {
+                    valor2_carta1 = area1;
+                    valor2_carta2 = area2;
+                }
                 break;
             case 3:
-                (i == 1) ? (valor1_carta1 = pib1, valor1_carta2 = pib2) : (valor2_carta1 = pib1, valor2_carta2 = pib2);
+                if (i == 1) {
+                    valor1_carta1 = pib1;
+                    valor1_carta2 = pib2;
+                } else {
+                    valor2_carta1 = pib1;
+                    valor2_carta2 = pib2;
+                }
                 break;
             case 4:
-                (i == 1) ? (valor1_carta1 = pontosTuristicos1, valor1_carta2 = pontosTuristicos2) : (valor2_carta1 = pontosTuristicos1, valor2_carta2 = pontosTuristicos2);
+                if (i == 1) {
+                    valor1_carta1 = pontosTuristicos1;
+                    valor1_carta2 = pontosTuristicos2;
+                } else {
+                    valor2_carta1 = pontosTuristicos1;
+                    valor2_carta2 = pontosTuristicos2;
+                }
                 break;
             case 5:
-                (i == 1) ? (valor1_carta1 = densidade1, valor1_carta2 = densidade2) : (valor2_carta1 = densidade1, valor2_carta2 = densidade2);
+                if (i == 1) {
+                    valor1_carta1 = densidade1;
+                    valor1_carta2 = densidade2;
+                } else {
+                    valor2_carta1 = densidade1;
+                    valor2_carta2 = densidade2;
+                }
                 break;
             case 6:
-                (i == 1) ? (valor1_carta1 = pibPerCapita1, valor1_carta2 = pibPerCapita2) : (valor2_carta1 = pibPerCapita1, valor2_carta2 = pibPerCapita2);
+                if (i == 1) {
+                    valor1_carta1 = pibPerCapita1;
+                    valor1_carta2 = pibPerCapita2;
+                } else {
+                    valor2_carta1 = pibPerCapita1;
+                    valor2_carta2 = pibPerCapita2;
+                }
                 break;
         }
     }
