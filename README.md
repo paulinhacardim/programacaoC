@@ -1,4 +1,4 @@
-# programacaoC
+# Super Trunfo em C: desenvolvendo a lógica do jogo
 
 
 🃏 Super Trunfo de Cidades - Projeto em C
